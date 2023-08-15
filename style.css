@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    
+    background-color: rgb(241, 241, 241);
+}
+.navigation-bar{
+    background-color: rgba(231, 230, 230, 0.92);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.42);
+    z-index: 1000;
+}
+
+.left{
+    
+    display: flex;
+    flex: 1;
+    min-width: 150px;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.628);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.law{
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.943);
+}
+.right{
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+    padding-left: 35px;
+    
+    max-width: 450px;
+}
+.instagram-img, .twitter-img, .linkedin-img, .facebook-img, .search-img{
+   
+    height: 25px;
+    margin-right: 35px;
+}
+.instagram-img:hover, .twitter-img:hover, .linkedin-img:hover, .facebook-img:hover, .search-img:hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: opacity .20s;
+}
+.instagram-img:active, .twitter-img:active, .linkedin-img:active, .facebook-img:active, .search-img:active{
+    opacity: 50%;
+}
+.navigation-img{
+    height: 25px;
+    
+}
+.navigation-img:hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: opacity .20s;
+}
+.navigation-img:active{
+    opacity: 50%;
+}
+
+
+/* CSS FOR BODY */
+.main-page{
+    margin-top: 50px;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    flex: 1;
+    align-items: center;
+    
+}
+.left-body{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    
+    align-items: start;
+    justify-content: center;
+    padding-left: 70px;
+}
+.name{
+    align-items: center;
+    font-size: 72px;
+    margin: 0;
+    text-shadow: 4px 4px 5px rgba(133, 133, 133, 0.813);
+    
+}
+.post{
+    
+    font-size: 36px;
+    align-items: center;
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+.detail{
+   
+    width: 85%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    
+}
+.call-button{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 3px;
+    
+    
+}
+.call-button:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    opacity: 75%;
+    box-shadow: 1px 5px 5px rgb(97, 97, 97);
+    
+}
+.call-button:active{
+    opacity: 0.5;
+}
+
+.right-body{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    background-color: bisque;
+}
+.main-img{
+    
+    display: flex;
+    width: 100%;
+    
+}
